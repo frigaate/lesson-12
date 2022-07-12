@@ -87,3 +87,36 @@ nav a{
     /* color: white; */
     margin: 20px 0;
 }
+
+.packages {
+    margin-top: 50px;
+    padding: var(--container-padding);
+    /* display: flex; */
+    display: block;  
+}
+.packages th{
+    background-color: #c7c9c9;
+    padding: 10px;
+    height: 40px;
+    font-weight: normal;
+}
+.packages td{
+    background-color: aliceblue;
+    padding: 10px;
+    font-weight: normal;
+}
+.packages table{
+    width: 70vw;
+    height: 25vh;
+    text-align: justify;
+    border-collapse: collapse;
+    margin-left: 10vw;
+    margin-top: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.packages h2{
+    font-weight: normal;
+    text-align: center;
+}
+
