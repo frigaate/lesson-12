@@ -1,0 +1,4 @@
+There are things we are to put into consideration when designing this kind of project
+1. Responsive designing
+2. Application of icons
+3. Application of custom fonts(font familu used in the whole webpage)
