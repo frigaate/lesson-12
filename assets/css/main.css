@@ -1,6 +1,7 @@
 :root{
     --primary-colour: #272343;
     --container-padding: 10px 80px;
+    --transparent-primary-color: #27234343;
 }
 body{
     margin: 0;
@@ -31,6 +32,21 @@ h1 {
     color: var(--primary-colour);
 }
 
+header button {
+    display: none;
+    color: var(--primary-colour);
+    background-color: var(--transparent-primary-color);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 23px;
+
+}
+
+nav{
+    padding: var(--container-padding);
+}
 nav ul{
     /* to remove bullet */
     list-style-type: none;
@@ -146,4 +162,14 @@ nav a{
     padding: var(--container-padding);
     background-color: var(--primary-colour);
     color: white;
+}
+
+@media only screen and ( max-width: 750px){
+    nav{
+        display: none;
+    }
+
+    header button {
+        display: inline-block;
+    }
 }
