@@ -12,10 +12,9 @@ body{
     padding: var(--container-padding);
     padding-bottom: 0px;
 } 
-.landing-page h2{
-    width: 50vw;
-    height: 50vh;
-    font-size: 80px;
+#main-title {
+    max-width: 500px;
+    font-size: clamp(24px, 10vw, 70px);
     color: var(--primary-colour);
 }
 header{
@@ -69,11 +68,8 @@ nav a{
 }
 
 .service-card{
-    /* margin-top: -200px; */
     padding: var(--container-padding);
     background-color: white;
-    /* border-color: blue; */
-    /* border-style: solid; */
     
 }
 .service-card h3{
@@ -93,14 +89,10 @@ nav a{
     background-color: var(--primary-colour);
     padding: var(--container-padding);
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: space-between; */
     gap: 100px;
     color: #ffffff;
 }
 .slogan-area div{
-    /* width: 20vw; */
-    /* color: white; */
     margin: 20px 0;
 }
 
@@ -108,13 +100,11 @@ nav a{
     margin-top: 50px;
     padding: var(--container-padding);
     display: flex;
-    /* display: block;   */
     flex-direction: column;
     align-items: center;
 }
 .packages h3{
     font-weight: normal;
-    /* text-align: center; */
     font-size: 30px;
     color: var(--primary-colour);
 }
@@ -141,10 +131,6 @@ nav a{
     height: 25vh;
     text-align: justify;
     border-collapse: collapse;
-    /* border-radius: 20px; */
-    /* margin-left: 10vw; */
-    /* margin-top: 20px; */
-    /* display: flex; */
     
 }
 
