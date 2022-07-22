@@ -185,6 +185,12 @@ nav a{
         flex-direction: column;
         gap: 10px;
     }
+    
+    .packages{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 
 @media only screen and ( max-width: 750px){
@@ -195,6 +201,16 @@ nav a{
     header button {
         display: inline-block;
     }
+
+    .packages .table-container{
+        width: 80%;
+        overflow-x: auto;
+    }
+
+    .table-container table {
+        min-width: 700px;
+    }
+
 }
 
 @media only screen and ( max-width: 500px){
