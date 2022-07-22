@@ -180,6 +180,13 @@ nav a{
     color: white;
 }
 
+@media only screen and ( max-width: 800px){
+    .slogan-area{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 @media only screen and ( max-width: 750px){
     nav{
         display: none;
@@ -187,5 +194,12 @@ nav a{
 
     header button {
         display: inline-block;
+    }
+}
+
+@media only screen and ( max-width: 500px){
+    .slogan-area{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
