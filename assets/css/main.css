@@ -2,6 +2,7 @@
     --primary-colour: #272343;
     --container-padding: 10px 80px;
     --transparent-primary-color: #27234343;
+    --primary-colour-dark: #eeeeee;
 }
 body{
     margin: 0;
@@ -86,14 +87,43 @@ nav a{
 }
 
 .slogan-area {
-    background-color: var(--primary-colour);
+    background-color: var(--primary-colour-dark);
     padding: var(--container-padding);
+    padding-top: 25px;
     display: flex;
     gap: 100px;
     color: #ffffff;
+    text-align: center;
 }
+
 .slogan-area div{
     margin: 20px 0;
+    margin-top: 30px;
+    background-color: var(--primary-colour);
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.slogan-area span{
+    height: 80px;
+    width: 80px;
+    background-color: var(--primary-colour);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    /* left: 50%; */
+    transform: translateX(-50%);
+}
+
+.slogan-area i{
+    font-size: 30px;
+}
+
+.slogan-area h3{
+    margin-top: 50px;
 }
 
 .packages {
